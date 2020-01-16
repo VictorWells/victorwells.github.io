@@ -1,1 +1,1 @@
-[{"title":"hello-world","url":"/2020/01/16/hello-world/","content":""}]
+[{"title":"关于一次updade导致的死锁问题记录","url":"/2020/01/16/hello-world/","content":"<p>&emsp;&emsp;今天生产报错，打印日志显示为 update table where id=? 造成的死锁。</p>\n","tags":["dubbo 事务"]}]
