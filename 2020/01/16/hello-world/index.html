@@ -117,7 +117,7 @@
 <meta property="og:description" content="遇见的问题今天在生产遇见一个问题，服务器报错，日志记录如下图：日志提示为 update table where id=? 造成的死锁。 探索过程询问DBA这个时间段有些什么操作，都有哪些sql在执行，根据sql执行形况找到对应的业务代码，查看代码是否有问题，代码业务层很简单，并没有什么复杂的逻辑，就是一个dubbo服务调用，被调用方就一个select，然后一个遍历，遍历里update，没有其他逻辑">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://victorwells.github.io/2020/01/16/hello-world/2020-01-16-15-14-53.png">
-<meta property="og:updated_time" content="2020-01-16T08:01:56.816Z">
+<meta property="og:updated_time" content="2020-03-27T02:17:38.949Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于一次遇见updade导致的死锁问题记录">
 <meta name="twitter:description" content="遇见的问题今天在生产遇见一个问题，服务器报错，日志记录如下图：日志提示为 update table where id=? 造成的死锁。 探索过程询问DBA这个时间段有些什么操作，都有哪些sql在执行，根据sql执行形况找到对应的业务代码，查看代码是否有问题，代码业务层很简单，并没有什么复杂的逻辑，就是一个dubbo服务调用，被调用方就一个select，然后一个遍历，遍历里update，没有其他逻辑">
@@ -475,6 +475,22 @@
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/03/27/sql/" rel="prev" title="关于一次sql优化的心得">
+                关于一次sql优化的心得 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
       
       
@@ -540,7 +556,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -557,7 +573,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
